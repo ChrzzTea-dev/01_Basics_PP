@@ -23,3 +23,35 @@ console.log("Inhalt:" + firstName); // Ausgabe
 let familyName = "Mütze"; // Deklaration & Wertzuweisung
 console.log("Vor und zu Name:" + firstName + " " + familyName);// Ausgabe --> Vor und zu Name Chris Mütze
 
+/**
+ * Wertzuweisung II + Datenypen
+ * JS ist ein untypisierte Sprache!
+ */
+
+
+
+
+
+let test;
+
+/* undefined */
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("----------------")
+
+
+
+test = "hi"; // string
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("----------------")
+
+test = 2; // number
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("----------------")
+
+test = true; // boolean
+console.log("Datentyp: " + typeof test); // Ausgabe Datentyp
+console.log("Inhalt: " + test); // Ausgabe Inhalt
+console.log("----------------")
