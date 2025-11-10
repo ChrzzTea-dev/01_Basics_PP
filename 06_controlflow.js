@@ -1,7 +1,7 @@
 // Entscheidungsstrukturen | control flow
 
 // Deklaration + Assignment
-const ageJohn = 25;
+/*const ageJohn = 25;
 const ageMark = 30;
 
 // Deklaration
@@ -51,7 +51,7 @@ console.log("ageMark: " + ageMark);
 /************ IF - ELSE IF  ************/
 // mit alternativen Fällen (älter, jünger, gleich alt)
 
-if (isJohnOlder)
+/*if (isJohnOlder)
 {
     console.log("John ist älter")
 }
@@ -64,3 +64,54 @@ else if(isJohnEqual)
     console.log("John ist jünger")
 }
 
+/****** Fallunterscheidung / SWITCH|CASE 1 ******/
+
+/*const firstName = "Jane";
+let job;
+
+ job = "driver";  // .. fährt TAXI! / UBER
+ job = "diver"; // .. taucht im Rhein!
+ job = "artist"; // .. malt ein Bild!
+ //job = "pilot"; // .. macht etwas anderes! --> default
+// job = "teacher"; // .. unterrichtet!
+// job = "instructor"; // .. unterrichtet!
+
+
+switch (job) 
+{
+    case "driver":
+            console.log(firstName + " fährt Taxi!")
+            break;
+    case "diver":
+            console.log(firstName + " taucht im Rhein!");
+            break;
+    case "artist": 
+            console.log(firstName + " malt ein Bild");
+            break;
+    
+    default: // Wichtig !!!
+            console.log(firstName + " geht Pfandflaschen sammeln");
+            break;
+}
+
+
+
+
+
+
+/******** Fallunterscheidung / SWITCH|CASE 2 *******/
+
+const cond = true;
+const value = 10;
+
+switch (cond) {
+    case (value == 1):
+        console.log("Case 1.");
+        break;
+    case (value == 2):
+        console.log("Case 2.");
+        break;
+    default:
+        console.log("Value hat einen anderen Wert.");
+        break;
+}
