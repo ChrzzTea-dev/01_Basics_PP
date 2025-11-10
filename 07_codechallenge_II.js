@@ -22,19 +22,47 @@ let kname = prompt("Name: ? ");
 let kalter = prompt("Alter: ? ");
 
 
-if(kalter >0, kalter<6)
+//if(kalter >0, kalter<6)
 {
-console.log("bekommt Milch")
+//console.log("bekommt Milch")
 }
-else if (kalter>=6, kalter<12)
+//else if (kalter>=6, kalter<12)
 {
-console.log("bekommt Saft")
+//console.log("bekommt Saft")
 }
-else if (kalter >=13, kalter<17)
+//else if (kalter >=13, kalter<17)
 {
-console.log("bekommt Cola")
+//console.log("bekommt Cola")
 }
-else
+//else
 {
-console.log("bekommt Wein")
+//console.log("bekommt Wein")
 }
+
+
+
+switch (true)
+{
+    case kalter >0&& kalter<6:
+            console.log("bekommt Milch")
+            break;
+    case kalter>=6&& kalter<12:
+            console.log("bekommt Saft");
+            break;
+    case kalter>=3&& kalter<17: 
+            console.log("bekommt Cola");
+            break;
+    case kalter>=18:
+            console.log("bekommt Wein");
+            break;
+
+        default: // Wichtig !!!
+            console.log("wer nix bestellt bekommt nix");
+            
+}
+    
+
+    
+
+
+
