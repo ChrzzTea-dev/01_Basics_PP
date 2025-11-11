@@ -49,7 +49,7 @@ switch (true)
     case kalter>=6&& kalter<12:
             console.log("bekommt Saft");
             break;
-    case kalter>=3&& kalter<17: 
+    case kalter>=13&& kalter<17: 
             console.log("bekommt Cola");
             break;
     case kalter>=18:
