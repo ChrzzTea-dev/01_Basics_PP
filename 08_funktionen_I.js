@@ -63,7 +63,7 @@ ausgabeNamen3("Tony", "Hawk");
 ausgabeNamen3("Chris", "Gee");
 
 // Argumente werden von prompt() geliefert
-//const prompt = require('prompt-sync')({sigint: true});
+const prompt = require('prompt-sync')({sigint: true});
 //ausgabeNamen3(prompt("Vorname: "),prompt("Name: "))
 
 function ausgabeNamen3(firstName, familyName) { // Parameter
@@ -78,11 +78,25 @@ function ausgabeNamen3(firstName, familyName) { // Parameter
 ausgabeNamenSRP("Max", "Mütze");
 
 function ausgabeNamenSRP(firstName, familyName) { 
-
+/*********** Funktion  03b ******/
     // 1st responsibility: string composing 
-    const GAP = " ";
-    let outputStr = "Hallo " + firstName + " " + familyName + "!"
+output(getString("Max","Mütze"));
+output(getString("Chris","Gun"));
+output(getString(prompt("Vornamen?: "),prompt("Name? : ")));
 
-    // 2nd responsibility : string output
-    console.log(outputStr);
+
+  function getString(firstName, familyName){
+    const GAP = " ";
+    let outputStr = "Hallo " + firstName + GAP + familyName + "!";
+    return outputStr; // Funktion output sendet Daten zum Call
+  }
+    }
+ // 2nd responsibility : string output
+//output("hi");
+//output(2);
+//output(true);
+function output(outputData) // Wrapper 
+{
+console.log(outputData);
 }
+
