@@ -21,23 +21,25 @@ let bestellungistfertig = false;
 
 hi = hi.toLowerCase().trim();
 
-while(bestellungistfertig === false)
-if (hi === "ja") {
-    console.log("Ja sehr gerne.")
-    bestellungistfertig = true;
-}
-else if (hi === "nein"){
-    console.log("nein ich schaue noch danke")
-    bestellungistfertig = false;
-    hi = prompt("Wissen sie jetz was sie möchten ja?")
-    break;
-}
-else {
-    console.log("dann schauen sie sich nochmal die Karte an und sagen ja/nein ")
-    
-    hi = prompt("Haben sie sich jetz entschieden zu bestellen ?")
-}
+while(bestellungistfertig === false){
 
+
+    if (hi === "ja") {
+        console.log("Ja sehr gerne.")
+        bestellungistfertig = true;
+    }
+    else if (hi === "nein"){
+        console.log("nein ich schaue noch danke")
+        bestellungistfertig = false;
+        hi = prompt("Wissen sie jetzt was sie möchten ja?")
+        break;
+    }
+    else {
+        console.log("dann schauen sie sich nochmal die Karte an und sagen ja/nein ")
+        
+        hi = prompt("Haben sie sich jetz entschieden zu bestellen ?")
+    }
+}
 let burger = prompt("Welchen Burger möchten sie  die 1.(Cheeseburger) ,2.(Hamburger) oder 3.(Chillicheeseburger)? ");
 
 if (burger == 1) {
