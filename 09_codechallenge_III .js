@@ -51,7 +51,7 @@ else if(burger == 3 ){
     console.log("einen Chillicheeseburger bitte");
 } 
 else {
-    console.log("es tut mir leid alle anderen Bürger sind ausverkauft");
+    console.log("es tut mir leid alle anderen Burger sind ausverkauft");
     hi = prompt("1 2 oder 3 was darf es denn sein ?")
 }
 
