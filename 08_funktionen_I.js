@@ -89,6 +89,7 @@ output(getString(prompt("Vornamen?: "),prompt("Name? : ")));
     const GAP = " ";
     let outputStr = "Hallo " + firstName + GAP + familyName + "!";
     return outputStr; // Funktion output sendet Daten zum Call
+    console.log("hi") // Abbruch
   }
     }
  // 2nd responsibility : string output

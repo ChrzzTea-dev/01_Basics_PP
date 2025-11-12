@@ -38,7 +38,7 @@ else {
     hi = prompt("Haben sie sich jetz entschieden zu bestellen ?")
 }
 
-let burger = prompt("Welchen Burger möchten sie  die 1 ,2 oder 3? ");
+let burger = prompt("Welchen Burger möchten sie  die 1.(Cheeseburger) ,2.(Hamburger) oder 3.(Chillicheeseburger)? ");
 
 if (burger == 1) {
     console.log("einen Cheeseburger bitte")
@@ -71,4 +71,4 @@ else if(drink == "Bier"){
 else {
     console.log("Haben wir leider nicht mehr auf lager")
 }
-hi = prompt("Sie bekommen die Nr. "+ burger + " und " + drink + " und ich bekomme von ihnen xxx Euros" )
+hi = prompt("Sie bekommen die Nr. "+ burger + " und ein(e) " + drink + " und ich bekomme von ihnen xxx Euros vielen dank für ihre Bestellung " )
