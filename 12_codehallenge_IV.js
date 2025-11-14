@@ -20,7 +20,7 @@
         const Q_MARK = "?";     // Globale Konstanten
         const EX_MARK = "!";    // Globale Konstanten
 
-        // Was wird ausgegeben möchten 
+        // Was wir ausgegeben möchten 
     output(getSentence(["Ich","bin","Max"],"S"));
     output(getSentence(["Bist","du","Max"],"Q"));
     output(getSentence(["Ich","bin"],"E"));
